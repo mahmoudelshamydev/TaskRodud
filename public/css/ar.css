@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+	direction: rtl;
+}
+
+
+body {
+	direction: rtl;
+}
+
+.logo-hold a img {
+  float: right;
+}
+
+.mr-auto, .mx-auto {
+    margin-left: unset!important;
+    margin-right: auto !important;
+    border: none!important;
+}
+
+.left-content h1 {
+  text-align: right; 
+}
+
+.home-scroll-container p{
+	text-align: right;
+}
+
+.appstore-hold ul li{
+float: right;
+margin: 0px 0px 0 15px;
+}
+
+.left-footer-content {
+   padding: 24px 23% 24px 0;
+}
+
+.left-footer-content h1{
+	text-align: right;
+}
+
+.left-footer-content p{
+	padding: 0 0 0 25px;
+	text-align: right;
+}
+
+.social-hold p{
+	text-align: right;
+}
+
+.social-hold ul li {
+ 
+    float: right;
+ 
+}
+
+
+.footer-contact-details p a {
+ 
+    float: right;
+   direction: rtl;
+}
+
+
+ 
+.copy p a {
+ 
+    text-align: right;
+    float: right;
+ 
+}
+
+.footer-contact-details p{
+	float: right;
+}
+
+.homepage-foot-content .social-hold p {
+    padding: 0 0 0 35%;
+}
+
+.mobile-hold {
+    right: unset;
+    left: 0px;
+}
+
+.footer-contact-details p span {
+ 
+    float: right;
+    text-align: right;
+}
+
+.footer-contact {
+ 
+    float: right;
+ 
+}
+
+.footer-contact-details p a{
+	margin: 0px 0px 0 10px;
+}
+
+.copy p{
+	text-align: right;
+    float: right;
+}
+
+.left-content h1 {
+    text-align: right;
+    width: 100%;
+}
+
+.left-footer-content {
+    padding: 24px 15% 24px 0;
+}
+
+.home-scroll-container p a.contact-link {
+ float: right;
+ direction: rtl;
+	font-size: 16px;
+}
+
+.receipt-head h2 {
+   float: right;
+  text-align: right;
+}
+
+.payment-table tr td {
+    text-align: right;
+}
+
+.receipt-body h2{
+text-align: right;
+ float: right;
+}
+
+.total-part .col-md-6 {
+ 
+    text-align: right;
+}
+
+.receipt-content {
+   float: right;
+ }
+
+
+@media (max-width: 1025px)
+.mobile-hold img {
+    width: 63%;
+    float: left;
+}
+
+}
+
+
+@media (max-width: 500px) {
+	
+.left-footer-content {
+    padding: 24px 15% 24px 0px !important;
+}
+
+	
+}
+
+
+

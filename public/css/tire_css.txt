@@ -1,0 +1,70 @@
+
+
+/*---------------------
+	contact form - starts
+------------------------*/
+
+.contact-form-hold{
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 0;
+}
+
+.contact-form-hold h2{
+    width: 100%;
+    float: left;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-form-hold ul{
+	width: 100%;
+	float: left;
+	margin: 0px;
+	list-style: none;
+}
+
+
+.contact-form-hold ul li{
+ width: 47%;
+    float: left;
+    margin: 0px 2% 15px 0;
+    list-style: none;
+}
+.contact-form-hold ul li label{
+	font-size: 14px;
+	text-align: left;
+	float: left;
+}
+
+.general-textbox{
+	border: solid 2px #000;
+    padding: 10px;
+    float: left;
+    margin: 0px;
+    width: 100%;
+}
+
+.general-btn {
+    background: #FEC22D;
+    border: none;
+    padding: 11px 40px 12px 40px;
+}
+
+
+@media (max-width: 500px) {
+	.contact-form-hold ul li {
+    width: 100%!important;
+    float: left;
+    margin: 0px 0% 15px 0;
+    list-style: none;
+}
+}
+
+
+
+/*---------------------
+	contact form - ends
+------------------------*/

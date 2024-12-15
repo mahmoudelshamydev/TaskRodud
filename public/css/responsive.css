@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+@media (max-width: 1025px) {
+ 
+ .left-content {
+ padding: 0 0 0 0px;
+}
+	
+ .home-content-section-wrap {
+margin: 66px 0 50px 0;
+}
+	.mobile-hold img{
+	width: 63%;
+    float: right;
+	}
+	
+	.footer-contact{
+		max-width: 280px;
+	}
+	
+}
+
+@media (max-width: 992px) {
+	
+.mobile-hold {
+    top: -116%;
+    position: absolute;
+    right: 0px;
+}
+	
+		.mobile-hold img{
+	width: 308px;
+    float: right;
+	}
+	
+}
+
+
+
+
+
+@media (max-width: 769px) {
+	
+ .appstore-hold ul li {
+   margin: 0px 15px 6px 0;
+    
+}
+	
+	.left-footer-content {
+ 
+    padding: 24px 0 24px 20px;
+}
+	
+.mobile-hold {
+    top: -160%;
+    position: absolute;
+    right: 0px;
+}
+	
+.mobile-hold img {
+    width: 450px;
+    float: right;
+}
+	
+	.home-content-section-wrap .container-fluid  .row .col-md-6{
+		width: 100%;
+		
+	}
+	
+	.receipt-con-hold img {
+    max-width: 41px;
+}
+	
+	.page-bg-payment {
+    background: url(../images/pament_bg.jpg) no-repeat;
+    background-position: right;
+}
+	
+}
+
+
+@media (max-width: 768px) {
+	
+	.mobile-hold img {
+    width: auto;
+    float: right;
+    height: 100%;
+}
+	
+	.mobile-hold {
+    top: 0;
+    position: absolute;
+    right: 0px;
+}
+	
+}
+
+
+
+@media (max-width: 500px) {
+	
+	
+	.home-scroll-container{
+		    max-height: unset;
+	}
+	
+	
+	.mobile-hold img {
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+	
+	.mobile-hold {
+    top: 0%;
+    position: relative;
+    right: 0px;
+    text-align: center;
+}
+	
+	li.lang-select a {
+    color: #FEC22D!important;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 50px!important;
+    height: 50px!important;
+    padding: 12px 0 0 0!important;
+    text-align: center;
+    transition: all .2s ease;
+    float: none!important;
+    display: inline-block;
+}
+	
+	
+	
+	li.lang-select a{
+		    width: 50px!important;
+    height: 50px!important;
+	}
+	
+	nav.navbar ul li {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+
+}
+	
+		nav.navbar ul li a{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+	
+	
+	.home-content-section-wrap {
+    margin: 15px 0 50px 0;
+}
+	
+	.logo-hold a{
+		text-align: center;
+	}
+	
+	.receipt-head h2 {
+    width: 100%;
+    float: left;
+    margin: 10px 0 5px 0;
+    padding: 0 0 0 5px;
+    font-weight: 200;
+    font-size: 23px;
+    text-align: center;
+		
+}
+	
+	.receipt-con-hold {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+	
+	.receipt-con-hold img {
+    max-width: 41px;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+	
+	.receipt-head p{
+		text-align: center;
+	}
+	
+	
+	.right-content {
+    position: relative;
+    height: 100%;
+    float: left;
+    width: 100%;
+    min-height: 0;
+    margin: 69px 0 0 0;
+	text-align: center;
+}
+	
+	.payment-button {
+    background: #000000;
+    color: #FEC22D;
+    font-size: 21px;
+    text-align: center;
+    width: 281px;
+    padding: 15px 70px 15px 70px;
+    border-radius: 30px;
+    position: relative;
+    line-height: normal;
+    right: 0px;
+    bottom: 0;
+    transition: all .2s ease;
+}
+	
+	.left-footer-content {
+  
+    padding: 24px 20px 24px 20px;
+}
+	
+	.footer-contact{
+		    padding: 23px 20px 10px 20px;
+	}
+	
+	.container-fluid {
+    max-width: 1400px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+	
+	
+footer {
+    padding: 0 0px 0 0px;
+}
+	
+	.mob-button {
+    background: #FEC22D;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: right;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+	
+	.mob-button {
+    background: #FEC22D;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: right;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 9px;
+}
+	 
+}
